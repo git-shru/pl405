@@ -23,7 +23,7 @@ public class Main {
 
 
 
-public class ShapeFactoryDesign {
+public static class ShapeFactoryDesign {
 
 	public Shapes getinstance(String str)
 	{
