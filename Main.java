@@ -49,7 +49,7 @@ public interface Shapes {
 	void calculateArea();
 }
 
-public class Square implements Shapes{
+public static class Square implements Shapes{
 	
 	int side = 4;
 	
@@ -60,7 +60,7 @@ public class Square implements Shapes{
 
 }
 
-public class Circle  implements Shapes{
+public static class Circle  implements Shapes{
 	
 	int radius = 15;
 	
@@ -71,7 +71,7 @@ public class Circle  implements Shapes{
 
 }
 
-public class Rectangle  implements Shapes{
+public static class Rectangle  implements Shapes{
 	
 	int length = 12;
 	int width = 10;
