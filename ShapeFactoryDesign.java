@@ -9,7 +9,7 @@ public class ShapeFactoryDesign {
 			return new Square();
 			
 		}
-		else if(str.equals("circle")) {
+		else if(str.equals("rectangle")) {
 			
 			return new Rectangle();
 			
